@@ -55,13 +55,14 @@ p {
     padding: 0.5em 1em;
     border: 1px solid #666;
     border-radius: 50px;
-    font-family: var(--mainfont);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
 }
 
 .btn:hover {
     background: var(--colorE);
     color: var(--colorD);
-    transition: 1.5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 /* HEADER */
@@ -238,21 +239,19 @@ p {
     opacity: 1;
 }
 
-.section-c-list {
-    padding: 0;
-    color: #fff;
-}
-
 .move-list {
     text-align: center;
     margin-left: 20px;
     margin-bottom: 20px;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section-c-list {
+    margin-top: 50px;
     padding: none;
+    color: #fff;
     list-style: none;
     transition: all 1s ease-out;
     transform: translateY(100px);
@@ -337,8 +336,8 @@ input {
     border-radius: 50%;
     /* border: 1px solid #000; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 .coach-p {
@@ -353,11 +352,6 @@ input {
     background: #DC5ABA;
     color: #fff;
     text-align: center;
-}
-
-#main-footer a {
-    color: blue;
-    text-decoration: none;
 }
 
 @media(min-width:700px) {
