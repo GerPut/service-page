@@ -50,19 +50,21 @@ p {
     display: inline-block;
     margin: 0.5em 0;
     background-color: var(--colorD);
-    color: var(--colorE);
+    color: #fff;
     text-decoration: none;
     padding: 0.5em 1em;
     border: 1px solid #666;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 .btn:hover {
     background: var(--colorE);
     color: var(--colorD);
-    transition: 1s ease-in-out;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
 }
 
 /* HEADER */
@@ -274,12 +276,43 @@ p {
 
 /* REVIEW SECTION */
 
+#review-section {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(195, 195, 195, 1) 100%, rgba(255, 255, 255, 1) 110%);
+    padding-bottom: 2em;
+}
+
+.content-titlesection-review {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #222;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.review-text {
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
+
+.user-heading {
+    display: block;
+    text-align: center;
+}
+
 .fa.fa-star {
+    text-align: row;
     font-size: 3rem;
 }
 
 .checked {
     color: orange;
+}
+
+.review-rating {
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
 }
 
 /* PRICING */
@@ -314,6 +347,15 @@ input {
     display: block;
     width: 200px;
     margin-bottom: 5px;
+    border: 1px solid #000;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    padding: 3px;
+}
+
+textarea {
+    border: 1px solid #000;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    padding: 3px;
 }
 
 .contact-form {
