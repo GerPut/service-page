@@ -185,6 +185,15 @@ p {
     margin-top: 30px;
 }
 
+.quality {
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .card-image {
     border-radius: 5px 5px 0 0;
 }
@@ -261,6 +270,26 @@ p {
 .section-c-list.move-up {
     opacity: 1;
     transform: translateY(0px);
+}
+
+/* REVIEW SECTION */
+
+.fa.fa-star {
+    font-size: 3rem;
+}
+
+.checked {
+    color: orange;
+}
+
+/* PRICING */
+
+.pricing {
+    background-color: #47B75A;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 30px;
 }
 
 /* SECTION D */
