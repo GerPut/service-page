@@ -47,7 +47,7 @@ p {
 .btn {
     display: inline-block;
     margin: 0.5em 0;
-    background-color: var(--colorD);
+    background-color: #222222;
     color: #fff;
     text-decoration: none;
     padding: 0.5em 1em;
@@ -210,7 +210,7 @@ p {
     width: auto;
     height: 100vh;
     z-index: -1;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .content-titlesection-c {
