@@ -19,8 +19,6 @@ html {
 body {
     margin: 0;
     font-family: var(--mainfont);
-    color: #fff;
-    font-size: 1.1rem;
     line-height: 1.5;
 }
 
@@ -252,10 +250,9 @@ p {
 
 .move-list {
     text-align: center;
-    margin-left: 20px;
     margin-bottom: 20px;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.1em;
     font-family: 'Montserrat', sans-serif;
 }
 
