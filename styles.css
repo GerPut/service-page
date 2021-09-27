@@ -201,6 +201,7 @@ p {
 /* SECTION C */
 
 #section-c {
+    display: grid;
     background-image: url(images/p1.jpg);
     padding: 2em;
     background-position: center;
@@ -269,6 +270,10 @@ p {
 .section-c-list.move-up {
     opacity: 1;
     transform: translateY(0px);
+}
+
+ul {
+    padding-inline-start: 0px;
 }
 
 /* REVIEW SECTION */
