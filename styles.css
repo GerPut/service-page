@@ -202,6 +202,8 @@ p {
 
 #section-c {
     display: grid;
+    justify-content: center;
+    align-items: center;
     background-image: url(images/p1.jpg);
     padding: 2em;
     background-position: center;
@@ -454,5 +456,12 @@ textarea {
     }
     #section-c .content-wrap {
         padding: 1em;
+    }
+}
+
+@media(min-width:425px) {
+    .move-list {
+        font-size: 1em;
+        margin-bottom: 10px;
     }
 }
