@@ -137,12 +137,12 @@ p {
 
 .section-b-content-title {
     text-align: center;
-    background: #FBC757;
+    background: var(--colorB);
 }
 
 #section-b {
     padding: 2em 1em 1em;
-    background: #FBC757;
+    background: var(--colorB);
 }
 
 #section-b ul {
