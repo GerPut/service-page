@@ -409,7 +409,6 @@ textarea {
     margin-right: auto;
     margin-top: 20px;
     border-radius: 50%;
-    /* border: 1px solid #000; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     width: 180px;
     height: 180px;
@@ -461,7 +460,13 @@ textarea {
 
 @media(min-width:425px) {
     .move-list {
-        font-size: 1em;
+        font-size: 16px;
         margin-bottom: 10px;
+    }
+    .section-c-list {
+        margin-top: 20px;
+    }
+    .section-c-list-wrapper {
+        margin-bottom: 20px;
     }
 }
